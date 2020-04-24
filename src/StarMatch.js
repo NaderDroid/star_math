@@ -93,6 +93,10 @@ const StarMatch = () => {
                 </div>
             </div>
             <div className="timer">Time Remaining: {secondsLeft}</div>
+            <div className="footer">
+                <p >Developed:
+                    <a href="https://github.com/naderdroid"> Nader </a> <br/>deployed on Heroku</p>
+            </div>
         </div>
     );
 };
