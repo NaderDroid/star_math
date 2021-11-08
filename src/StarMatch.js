@@ -9,7 +9,7 @@ const StarMatch = () => {
     const [starCount , setCount] = useState(utils.random(1,9))
     const [availableNum , setAvailable] = useState(utils.range(1,9))
     const [candidateNum , setCandidate] = useState([])
-    const [secondsLeft , setSeconds] = useState(10);
+    const [secondsLeft , setSeconds] = useState(20);
 
     useEffect(() => {
 
